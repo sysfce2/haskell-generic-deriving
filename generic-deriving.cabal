@@ -120,7 +120,6 @@ library
 
   build-depends:        base             >= 4.9   && < 5
                       , containers       >= 0.1   && < 0.9
-                      , ghc-prim                     < 1
                       , template-haskell >= 2.11  && < 2.25
                         -- TODO: Eventually, we should bump the lower version
                         -- bounds to >=0.6 so that we can remove some CPP in
@@ -143,7 +142,6 @@ test-suite spec
   build-depends:        base
                       , generic-deriving
                       , hspec            >= 2    && < 3
-                      , template-haskell
   build-tool-depends:   hspec-discover:hspec-discover
   hs-source-dirs:       tests
   default-language:     Haskell2010
