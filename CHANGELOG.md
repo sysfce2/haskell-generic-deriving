@@ -1,3 +1,7 @@
+# 1.14.7 [2026.01.03]
+* Allow building with GHC 9.14.
+* Remove unused `ghc-prim` dependency.
+
 # 1.14.6 [2024.12.05]
 * Drop support for GHC 7.10 and earlier.
 
